@@ -1,0 +1,12 @@
+{
+  "name": "repeater-nation-discord-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Keeps the Repeater Nation Discord bot online (presence only; the website creates the Discord events).",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node presence.mjs",
+    "check": "node --check presence.mjs"
+  }
+}
